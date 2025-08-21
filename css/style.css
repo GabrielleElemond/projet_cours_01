@@ -1,6 +1,13 @@
-/* .logo {
-    width: 200px;
-} */
+.logo {
+    display: flex;
+    justify-content: space-around;
+
+    img {
+        width: 200px;
+    }
+
+}
+
 
 .titre {
     display: flex;
@@ -46,15 +53,10 @@ li {
     }
 }
 
-<<<<<<< HEAD
-/* main {
-    margin-left: 15rem;
-} */
-=======
+
 main {
     /* margin-left: 15rem; */
 }
->>>>>>> kate
 
 .ambassadeurs {
     display: grid;
@@ -70,6 +72,7 @@ main {
 
     h2,
     p {
+        color: #707070;
         padding: 0px;
         margin: 0px;
         font-family: "Poppins", sans-serif;
@@ -84,14 +87,28 @@ main {
         width: 50vw;
         border-radius: 0px 500px 500px 0px;
         translate: -100px 0px;
-        /* transition-delay: 1s; */
+
+
 
 
         &:hover {
             translate: 0px 0px;
+            /* animation-name: ambassadeurs;
+            animation-duration: sec;
+            animation-direction: reverse; */
         }
     }
 }
+
+/* @keyframes ambassadeurs {
+    0% {
+        translate: -100px 0px;
+    }
+
+    100% {
+        translate: 0px 0px;
+    }
+} */
 
 .video {
     display: flex;
