@@ -1,0 +1,76 @@
+.infolettre {
+  background-color: #1f484c; 
+  color: white; 
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.info {
+  display: flex;
+  flex-direction: column;
+  padding: 50px;
+  padding-left: 75px;
+}
+
+
+.infolettre h1 {
+  text-transform: uppercase;
+  font-weight: 900;
+  font-size: 1.8rem;
+  margin-bottom: 0.5rem;
+}
+
+.infolettre p {
+  font-size: 0.9rem;
+  line-height: 1.3;
+  max-width: 300px;
+  margin-bottom: 1rem;
+  color: #aac4c9;
+}
+
+.formInfolettre {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.formInfolettre label {
+  display: none;
+}
+
+.formInfolettre input {
+  padding: 10px 15px;
+  border-radius: 6px;
+  border: none;
+  background-color: #d8d8d8;
+  font-size: 1rem;
+}
+
+.formInfolettre input::placeholder {
+  color: #555;
+}
+
+.formInfolettre button {
+  padding: 10px 15px;
+  border-radius: 6px;
+  border: none;
+  background-color: #5fb8c6; 
+  color: white;
+  font-weight: 700;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.formInfolettre button:hover {
+  background-color: #4a96a8;
+}
+
+.imgInfo {
+    z-index: 100;
+  width: 450px;
+  height: 300px;
+  object-fit: cover;
+  border-radius: 150px 0 0 150px;
+}

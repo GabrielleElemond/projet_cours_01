@@ -5,7 +5,10 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/footer.css">
+    <link rel="stylesheet" href="css/infolettre.css">
+    
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link
@@ -54,8 +57,41 @@
         <div class="info"></div>
         <div class="contact"></div>
     </main>
+    <section class="infolettre">
+        <div class="info">
+            <h1>INFOLETTRE</h1>
+            <p>Découvre nos programmes et la vie étudiante lors des prochaines portes ouvertes du Cégep de Saint-Jérôme.
+                Viens rencontrer notre équipe et visiter nos installations !</p>
 
-    <footer></footer>
+            <form class="formInfolettre">
+                <label for="nom">Nom :</label>
+                <input type="text" id="nom" name="nom" placeholder="Votre nom" required>
+
+                <label for="courriel">Courriel :</label>
+                <input type="email" id="courriel" name="courriel" placeholder="Votre courriel" required>
+
+                <button type="submit">S’inscrire</button>
+            </form>
+        </div>
+        <img class="imgInfo" src="img/graduation.jpg" alt="">
+    </section>
+    <footer>
+        <img src="images/Logo.png" alt="">
+        <div>
+            <div class="footer-links">
+                <a href="#">ÉVÈNEMENTS</a>
+                <a href="#">PHOTOS</a>
+                <a href="#">INFOLETTRE</a>
+                <a href="#">CONTACT</a>
+            </div>
+            <div class="footer-social">
+                <a href="#"><img src="images/facebook.png" alt="Facebook"></a>
+                <a href="#"><img src="images/instagram.png" alt="Instagram"></a>
+                <a href="#"><img src="images/pinterest.png" alt="Pinterest"></a>
+                <a href="#"><img src="images/youtube.png" alt="youtube"></a>
+            </div>
+        </div>
+    </footer>
 
 </body>
 <script src="main.js"></script>
