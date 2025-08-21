@@ -1,0 +1,10 @@
+/* BASE */
+@import url('_base/variables.css');
+@import url('_base/reset.css');
+@import url('_base/boilerplate.css');
+@import url('_base/typo.css');
+
+/* AUTRES */
+@import url('style.css');
+@import url('_autres/carrousel.css');
+@import url('_autres/header.css');

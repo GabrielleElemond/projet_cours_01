@@ -8,6 +8,7 @@
 
 }
 
+
 .titre {
     display: flex;
     flex-direction: column;
@@ -50,6 +51,11 @@ li {
     a {
         text-decoration: none;
     }
+}
+
+
+main {
+    /* margin-left: 15rem; */
 }
 
 .ambassadeurs {
