@@ -4,24 +4,30 @@
 
 .titre {
     display: flex;
+    flex-direction: column;
 
-    h1 {
+    h1,
+    p {
 
         margin-left: 15rem;
+        margin-bottom: 0;
         font-family: "Poppins", sans-serif;
-        font-size: 4em;
         color: #707070;
-        padding: 40px 0px 30px 20px;
 
     }
 
-    span {
-        padding: 16px;
-        font-family: "Dancing Script", cursive;
-        font-size: 10em;
-        color: #27A348;
-
+    h1 {
+        font-size: 4em;
+        padding: 0px;
     }
+
+    p {
+        padding-bottom: 1em;
+    }
+
+
+
+
 }
 
 
@@ -40,17 +46,44 @@ li {
     }
 }
 
-main {
+/* main {
     margin-left: 15rem;
-}
+} */
 
-.photo {
+.ambassadeurs {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    margin-top: 7rem;
 
-    background-color: #707070;
+    div {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
 
+    h2,
+    p {
+        padding: 0px;
+        margin: 0px;
+        font-family: "Poppins", sans-serif;
+    }
+
+    p {
+        padding: 0px;
+        margin-left: 0px;
+    }
 
     img {
-        width: 400px;
+        width: 50vw;
+        border-radius: 0px 500px 500px 0px;
+        translate: -100px 0px;
+        /* transition-delay: 1s; */
+
+
+        &:hover {
+            translate: 0px 0px;
+        }
     }
 }
 
@@ -59,6 +92,7 @@ main {
     flex-direction: column;
     align-items: end;
     justify-content: center;
+    margin-top: 7rem;
 
     video {
         width: 90vw;
