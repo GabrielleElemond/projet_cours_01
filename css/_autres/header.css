@@ -1,18 +1,27 @@
 .entete {
     display: flex;
     flex-direction: row;
-    gap: 20px;
+    gap: 50px;
+    align-items: flex-end;
+    justify-content: center;
 
     p {
+        width: 250px;
         font-family: "Work-Sans", sans-serif;
-        font-size: 16px;
-        font-weight: 600;
+        font-size: 15px;
+        font-weight: 700;
         color: var(--grisFonce);
+        text-transform: uppercase;
+        letter-spacing: 1px;
+    }
+
+    .contacts{
+        margin-bottom: 5px;
     }
 }
 
 .img-container {
-    width: 200px;
+    width: 250px;
 
     img {
         width: 100%;
