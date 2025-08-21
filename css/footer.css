@@ -19,6 +19,7 @@ footer > div {
 
 .footer-links {
     display: flex;
+    font-family: "Poppins", sans-serif;
     gap: 30px;
     padding-bottom: 10px;  
     border-bottom: 1px solid #ccc;
