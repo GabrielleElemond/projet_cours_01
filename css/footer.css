@@ -27,7 +27,7 @@ footer > div {
 .footer-links a {
     text-decoration: none;
     color: #000; 
-    font-size: 14px;
+    font-size: 20px;
     font-weight: 500;
 }
 
@@ -42,6 +42,6 @@ footer > div {
 }
 
 .footer-social img {
-    height: 24px;
-    width: 24px;
+    height: 32px;
+    width: 32px;
 }
