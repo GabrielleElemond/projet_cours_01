@@ -1,0 +1,67 @@
+.logo {
+    width: 200px;
+}
+
+.titre {
+    display: flex;
+
+    h1 {
+
+        margin-left: 15rem;
+        font-family: "Poppins", sans-serif;
+        font-size: 4em;
+        color: #707070;
+        padding: 40px 0px 30px 20px;
+
+    }
+
+    span {
+        padding: 16px;
+        font-family: "Dancing Script", cursive;
+        font-size: 10em;
+        color: #27A348;
+
+    }
+}
+
+
+ul {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+
+}
+
+li {
+    list-style-type: none;
+
+
+    a {
+        text-decoration: none;
+    }
+}
+
+main {
+    margin-left: 15rem;
+}
+
+.photo {
+
+    background-color: #707070;
+
+
+    img {
+        width: 400px;
+    }
+}
+
+.video {
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+    justify-content: center;
+
+    video {
+        width: 90vw;
+        border-radius: 500px 0px 0px 500px;
+    }
+}
