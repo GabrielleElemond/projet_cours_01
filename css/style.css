@@ -1,6 +1,6 @@
-.logo {
+/* .logo {
     width: 200px;
-}
+} */
 
 .titre {
     display: flex;
@@ -46,9 +46,15 @@ li {
     }
 }
 
+<<<<<<< HEAD
 /* main {
     margin-left: 15rem;
 } */
+=======
+main {
+    /* margin-left: 15rem; */
+}
+>>>>>>> kate
 
 .ambassadeurs {
     display: grid;
